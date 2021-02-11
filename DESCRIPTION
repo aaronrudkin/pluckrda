@@ -1,0 +1,18 @@
+Package: pluckrda
+Type: Package
+Title: Load Individual Objects from RDA Files
+Version: 0.1.0
+Author: Aaron Rudkin
+Maintainer: Aaron Rudkin <rudkin@ucla.edu>
+Description: Supplements R's built-in load function and allows
+  choosing individual objects to keep when loading a .rda or
+  .RData file.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 2.0.0)
+Config/testthat/edition: 2
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.1.1
